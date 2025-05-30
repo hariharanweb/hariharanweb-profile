@@ -18,10 +18,10 @@ const App = () => {
 
   const projects = [
     {
-      client: 'North American Investment Bank',
+      client: 'Goldman Sachs - Transaction Banking',
       duration: '2023 - Current',
       technologies: 'ReactJS, MobX, Webpack Module Federation, ExpressJS, Spring Boot',
-      description: 'I was involved in building the transaction banking frontend system for Large North American Bank. I played the role of tech architect and ramped up the team from 6 to 30 people, onboarding new members and ramping them on the Goldman Sachs ecosystem. Worked with teams spread across London, Bangalore and New York.',
+      description: 'I was involved in building the transaction banking frontend system for Goldman Sachs. I played the role of tech architect and ramped up the team from 6 to 30 people, onboarding new members and ramping them on the Goldman Sachs ecosystem. Worked with teams spread across London, Bangalore and New York.',
       responsibilities: [
         'Moving the monolith frontend repository into micro frontend repositories based on domains, helping the teams to develop and deploy faster.',
         'Reuse of frontend components for client facing and customer service portals. Designing component libraries and business components to be reused across the systems.',
@@ -114,7 +114,7 @@ const App = () => {
           </h3>
         </div>
         <div className='flex flex-row items-center'>
-          <div className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect' /></div>
+          <a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url' target='_blank' className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect' /></a>
           <div>
             <div>
               <EmailIcon />
@@ -179,7 +179,7 @@ const App = () => {
           <h2 className="text-xl py-2 underline">
             CERTIFICATIONS
           </h2>
-          <div><a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url'>AWS Certified Software Architect</a></div>
+          <div><a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url' target='_blank'>AWS Certified Software Architect</a></div>
           <h2 className="text-xl py-2 underline">
             EDUCATION
           </h2>
