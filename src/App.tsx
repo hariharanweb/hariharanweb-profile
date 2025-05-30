@@ -22,11 +22,11 @@ const App = () => {
           <div>
             <div>
               <EmailIcon />
-              <a href='hariharanweb@gmail.com' className='pl-2'>hariharanweb@gmail.com</a>
+              <a href='mailto:hariharanweb@gmail.com' className='pl-2'>hariharanweb@gmail.com</a>
             </div>
             <div>
               <PhoneIphoneIcon />
-              <a href='+91 9686602282' className='pl-2'>+91 9686602282</a>
+              <a href='tel:+91 9686602282' className='pl-2'>+91 9686602282</a>
             </div>
             <div>
               <GitHubIcon />
@@ -39,7 +39,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className='p-4 border-b-2 border-indigo-200'>
+      <div className='px-4 pt-4 pb-8 border-b-2 border-indigo-200'>
         <h2 className="text-xl pb-2 underline">
           PROFESSIONAL SUMMARY
         </h2>
