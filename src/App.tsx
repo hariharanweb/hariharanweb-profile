@@ -18,7 +18,7 @@ const App = () => {
           </h3>
         </div>
         <div className='flex flex-row items-center'>
-          <div className='pr-8'><img src={aws} width={'128px'} height={'128px'} /></div>
+          <div className='pr-8'><img src={aws} width={'100px'} height={'100x'} /></div>
           <div>
             <div>
               <EmailIcon />
