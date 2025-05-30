@@ -7,7 +7,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className='p-8'>
+    <div className='p-8 page'>
       <div className='flex p-4 justify-between border-t-8 border-b-2 border-indigo-400'>
         <div>
           <h1 className="text-3xl font-bold">
@@ -18,7 +18,7 @@ const App = () => {
           </h3>
         </div>
         <div className='flex flex-row items-center'>
-          <div className='pr-8'><img src={aws} width={'100px'} height={'100x'} /></div>
+          <div className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect'/></div>
           <div>
             <div>
               <EmailIcon />
@@ -113,6 +113,11 @@ const App = () => {
             <div>Application Developer | Bangalore, India | July 2007 - November 2009</div>
           </div>
         </div>
+      </div>
+      <div className='px-4 pt-4'>
+        <h2 className="text-xl pb-2 underline">
+          KEY PROJECTS
+        </h2>
       </div>
     </div >
   );
