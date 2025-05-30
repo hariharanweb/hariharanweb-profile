@@ -16,6 +16,35 @@ const App = () => {
     { label: 'DATABASE', items: 'Postgres, MongoDb' },
   ];
 
+  const projects = [
+    {
+      client: 'North American Investment Bank',
+      duration: 'July 2023 - Current',
+      technologies: 'ReactJS, MobX, Webpack Module Federation, ExpressJS, Spring Boot',
+      description: 'I was involved in building the transaction banking frontend system for Large North American Bank. I played the role of tech architect and ramped up the team from 6 to 30 people, onboarding new members and ramping them on the Goldman Sachs ecosystem. Worked with teams spread across London, Bangalore and New York.',
+      responsibilities: [
+        'Moving the monolith frontend repository into micro frontend repositories based on domains, helping the teams to develop and deploy faster.',
+        'Reuse of frontend components for client facing and customer service portals. Designing component libraries and business components to be reused across the systems.',
+        'BFF for the frontend to interact with backend services.'
+      ]
+    }
+  ]
+
+  const renderProject = (project:any) => {
+    return (
+      <div key={project.client}>
+       <h3 className="text-xl pb-1">{project.client}</h3>
+       <div className="text-sm pb-1 ">{project.duration}</div>
+       
+       <div>{project.description}</div>
+       <ul className="list-disc pl-4">
+        {project.responsibilities.map((responsibility:any) => <li key={responsibility}>{responsibility}</li>)}
+       </ul>
+       <div className="text-md pb-1 text-indigo-800 py-2">Technologies: {project.technologies}</div>
+      </div>
+    )
+  }
+
   return (
     <div className='p-8 page'>
       <div className='flex p-4 justify-between border-t-8 border-b-2 border-indigo-400'>
@@ -94,6 +123,13 @@ const App = () => {
         <h2 className="text-xl pb-2 underline">
           KEY PROJECTS
         </h2>
+        <div>
+          {
+            projects.map((project) => {
+              return renderProject(project);
+            })
+          }
+        </div>
       </div>
     </div >
   );
