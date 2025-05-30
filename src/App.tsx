@@ -50,8 +50,8 @@ const App = () => {
           <li>Leading teams in distributed delivery setups.</li>
         </ul>
       </div>
-      <div className='p-4'>
-        <div>
+      <div className='p-4 flex flex-row'>
+        <div className='pr-4'>
           <h2 className="text-xl pb-2">
             SKILLS
           </h2>
@@ -98,6 +98,19 @@ const App = () => {
               </span>
               <div className='p-1'>Postgres, MongoDb</div>
             </div>
+          </div>
+        </div>
+        <div className='border-l-2 px-4'>
+          <h2 className="text-xl pb-2">
+            EXPERIENCE
+          </h2>
+          <div>
+            <div>Thoughtworks Technologies</div>
+            <div>Lead Consultant | Bangalore, India | November 2009 - Current</div>
+          </div>
+          <div className='pt-4'>
+            <div>Nokia Siemens Networks</div>
+            <div>Application Developer | Bangalore, India | July 2007 - November 2009</div>
           </div>
         </div>
       </div>
