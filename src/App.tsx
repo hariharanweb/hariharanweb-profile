@@ -8,7 +8,7 @@ import './App.css';
 const App = () => {
   return (
     <div className='p-8'>
-      <div className='flex p-4 justify-between border-2 border-indigo-200'>
+      <div className='flex p-4 justify-between border-t-8 border-b-2 border-indigo-400'>
         <div>
           <h1 className="text-3xl font-bold">
             Hariharan Thiagarajan
@@ -39,8 +39,8 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className='p-4'>
-        <h2 className="text-xl pb-2">
+      <div className='p-4 border-b-2 border-indigo-200'>
+        <h2 className="text-xl pb-2 underline">
           PROFESSIONAL SUMMARY
         </h2>
         <ul className="list-disc pl-8">
@@ -50,9 +50,9 @@ const App = () => {
           <li>Leading teams in distributed delivery setups.</li>
         </ul>
       </div>
-      <div className='p-4 flex flex-row'>
+      <div className='p-4 flex flex-row border-b-2 border-indigo-200'>
         <div className='pr-4'>
-          <h2 className="text-xl pb-2">
+          <h2 className="text-xl pb-4 underline">
             SKILLS
           </h2>
           <div>
@@ -100,16 +100,16 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className='border-l-2 px-4'>
-          <h2 className="text-xl pb-2">
+        <div className='border-l-2 px-4 border-indigo-200'>
+          <h2 className="text-xl pb-2 underline">
             EXPERIENCE
           </h2>
           <div>
-            <div>Thoughtworks Technologies</div>
+            <div className='font-bold'>Thoughtworks Technologies</div>
             <div>Lead Consultant | Bangalore, India | November 2009 - Current</div>
           </div>
           <div className='pt-4'>
-            <div>Nokia Siemens Networks</div>
+            <div className='font-bold'>Nokia Siemens Networks</div>
             <div>Application Developer | Bangalore, India | July 2007 - November 2009</div>
           </div>
         </div>
