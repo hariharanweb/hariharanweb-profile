@@ -47,7 +47,58 @@ const App = () => {
           <li>Leading teams in distributed delivery setups.</li>
         </ul>
       </div>
-    </div>
+      <div className='p-4'>
+        <div>
+          <h2 className="text-xl pb-2">
+            SKILLS
+          </h2>
+          <div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                DESIGN
+              </span>
+              <div className='p-1'>Microservices, Micro-Frontends, GraphQL</div>
+            </div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                LANGUAGES
+              </span>
+              <div className='p-1'>Java, ES6, Typescript, .net</div>
+            </div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                FRAMEWORKS
+              </span>
+              <div className='p-1'>Spring boot, ExpressJS, Apollo GraphQL, .net core</div>
+            </div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                FRONTEND
+              </span>
+              <div className='p-1'>React, Redux, Storyboard, Styleguidist, Webpack Module Federation</div>
+            </div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                MOBILE
+              </span>
+              <div className='p-1'>React Native, Appium</div>
+            </div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                DevOps
+              </span>
+              <div className='p-1'>AWS, Docker, Gitlab Pipelines, Github Actions, Jenkins, Teamcity</div>
+            </div>
+            <div>
+              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                DATABASE
+              </span>
+              <div className='p-1'>Postgres, MongoDb</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div >
   );
 }
 
