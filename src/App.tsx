@@ -2,7 +2,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import aws from './aws.png'
 import './App.css';
 
 const App = () => {
@@ -17,22 +17,25 @@ const App = () => {
             Lead Software Consultant
           </h3>
         </div>
-        <div>
+        <div className='flex flex-row items-center'>
+          <div className='pr-8'><img src={aws} width={'128px'} height={'128px'} /></div>
           <div>
-            <EmailIcon />
-            <a href='hariharanweb@gmail.com' className='pl-2'>hariharanweb@gmail.com</a>
-          </div>
-          <div>
-            <PhoneIphoneIcon />
-            <a href='+91 9686602282' className='pl-2'>+91 9686602282</a>
-          </div>
-          <div>
-            <GitHubIcon />
-            <a href='https://github.com/hariharanweb' className='pl-2'>github.com/hariharanweb</a>
-          </div>
-          <div>
-            <LinkedInIcon />
-            <a href='https://www.linkedin.com/in/hariharant/' className='pl-2'>linkedin.com/in/hariharant/</a>
+            <div>
+              <EmailIcon />
+              <a href='hariharanweb@gmail.com' className='pl-2'>hariharanweb@gmail.com</a>
+            </div>
+            <div>
+              <PhoneIphoneIcon />
+              <a href='+91 9686602282' className='pl-2'>+91 9686602282</a>
+            </div>
+            <div>
+              <GitHubIcon />
+              <a href='https://github.com/hariharanweb' className='pl-2'>github.com/hariharanweb</a>
+            </div>
+            <div>
+              <LinkedInIcon />
+              <a href='https://www.linkedin.com/in/hariharant/' className='pl-2'>linkedin.com/in/hariharant/</a>
+            </div>
           </div>
         </div>
       </div>
