@@ -19,7 +19,7 @@ const App = () => {
   const projects = [
     {
       client: 'North American Investment Bank',
-      duration: 'July 2023 - Current',
+      duration: '2023 - Current',
       technologies: 'ReactJS, MobX, Webpack Module Federation, ExpressJS, Spring Boot',
       description: 'I was involved in building the transaction banking frontend system for Large North American Bank. I played the role of tech architect and ramped up the team from 6 to 30 people, onboarding new members and ramping them on the Goldman Sachs ecosystem. Worked with teams spread across London, Bangalore and New York.',
       responsibilities: [
@@ -27,20 +27,32 @@ const App = () => {
         'Reuse of frontend components for client facing and customer service portals. Designing component libraries and business components to be reused across the systems.',
         'BFF for the frontend to interact with backend services.'
       ]
+    },
+    {
+      client: 'ONDC (Open Network For Digital Commerce - Government of India)',
+      duration: '2022 - 2023',
+      technologies: 'Open API Schema, ExpressJS, React, Storybook, EC2, API Gateway',
+      description: 'ONDC is an initiative by the Govt of India to democratise the ecommerce industry. It simplifies and connects the Buyer and Sellers apps by defining contracts. I was involved in defining standards and contracts for mobility players to onboard on ONDC.',
+      responsibilities: [
+        'Define Open API contracts to be followed by Buyer Apps and Seller Apps.',
+        'Authentication and authorization contracts between the players in ONDC.',
+        'Interacting with existing mobility players and community members to define standards.',
+        'Lead the team working on reference implementations and examples.'
+      ]
     }
   ]
 
-  const renderProject = (project:any) => {
+  const renderProject = (project: any) => {
     return (
-      <div key={project.client}>
-       <h3 className="text-xl pb-1">{project.client}</h3>
-       <div className="text-sm pb-1 ">{project.duration}</div>
-       
-       <div>{project.description}</div>
-       <ul className="list-disc pl-4">
-        {project.responsibilities.map((responsibility:any) => <li key={responsibility}>{responsibility}</li>)}
-       </ul>
-       <div className="text-md pb-1 text-indigo-800 py-2">Technologies: {project.technologies}</div>
+      <div key={project.client} className='border-b-2 border-indigo-200 pb-4 mb-4'>
+        <h3 className="text-xl pb-1">{project.client}</h3>
+        <div className="text-sm pb-1 ">{project.duration}</div>
+
+        <div>{project.description}</div>
+        <ul className="list-disc pl-4">
+          {project.responsibilities.map((responsibility: any) => <li key={responsibility}>{responsibility}</li>)}
+        </ul>
+        <div className="text-md pb-1 text-indigo-800 py-2">Technologies: {project.technologies}</div>
       </div>
     )
   }
@@ -57,7 +69,7 @@ const App = () => {
           </h3>
         </div>
         <div className='flex flex-row items-center'>
-          <div className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect'/></div>
+          <div className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect' /></div>
           <div>
             <div>
               <EmailIcon />
