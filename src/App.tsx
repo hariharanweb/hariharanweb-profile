@@ -39,6 +39,51 @@ const App = () => {
         'Interacting with existing mobility players and community members to define standards.',
         'Lead the team working on reference implementations and examples.'
       ]
+    },
+    {
+      client: 'Kroger - US/India',
+      duration: '2019 - 2021',
+      technologies: 'React, Spring Boot, Kafka, Micro-frontends, Lerna, Postgres',
+      description: 'Kroger is one of the largest American retail company. They were building a promotion planning platform and coupons management. I played the role of tech lead for teams spread across India and the US.',
+      responsibilities: [
+        'Designing event driven microservices for promotion planning using Spring boot and Kafka. Design of layered microservices architecture for the promotions management.',
+        'Designing micro frontends for customer facing websites and BFFs for coupons management.',
+        'Designing domain APIs to be consumed by several frontend layers.'
+      ]
+    },
+    {
+      client: 'Credit Suisse - Singapore',
+      duration: '2018 - 2019',
+      technologies: 'React, Spring Boot, GraphQL, Micro-frontends',
+      description: 'I was leading a team which developed the Customer Onboarding and KYC Platform. It involved designing the API for onboarding using GraphQL, coaching the client teams on TDD, clean code, CI/CD.',
+      responsibilities: [
+        'Helped the client developers to ramp up on technologies like GraphQL.',
+        'Helped the client to deliver the project by helping them define the Minimum Viable Project (MVP) and ramp up multiple teams on agile methodologies.'
+      ]
+    },
+    {
+      client: 'Gojek - Go-Finance - Singapore/India',
+      duration: '2017 - 2018',
+      technologies: 'React, GoLang, Play Framework(Java), gRPC, HAProxy, Terraform, AWS',
+      description: 'Helped the client build a Loan Management System (LMS) and enabled them to enter into the microfinance market and Buy Now Pay Later platform.',
+      responsibilities: [
+        'Designing and building a scalable microservices which could enable the client to go to new markets in south-east asia and launch their microfinance products.',
+        'Defining SDK for frontend in iOS and Android to be used by other apps in their super app.',
+        'Deploying the microservices in AWS and on premises K8s',
+        'Interacting with various business units inside the super app ecosystem to increase adoption of Buy Now Pay Later payments',
+        'Helping the client to grow their teams in India, Singapore and Indonesia'
+      ]
+    },
+    {
+      client: 'TheTrainline - UK/India',
+      duration: '2016 - 2017',
+      technologies: 'React, React Native, .net, Appium',
+      description: 'Helped the client build a mobile experience. Was lead of the team which developed white labelled mobile websites and mobile apps. Helped clients to go to market early and managed the release of 12 websites and mobile apps with complete automation.',
+      responsibilities: [
+        'Helped the client go to market early by leveraging React and React Native technologies.',
+        'By following API first approach, the client was able to leverage the API as a product.',
+        'White labelled app that could be easily configured for different clients.'
+      ]
     }
   ]
 
