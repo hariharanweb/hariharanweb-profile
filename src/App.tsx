@@ -6,6 +6,16 @@ import aws from './aws.png'
 import './App.css';
 
 const App = () => {
+  const skills = [
+    { label: 'DESIGN', items: 'Microservices, Micro-Frontends, GraphQL' },
+    { label: 'LANGUAGES', items: 'Java, ES6, Typescript, .net' },
+    { label: 'FRAMEWORKS', items: 'Spring boot, ExpressJS, Apollo GraphQL, .net core' },
+    { label: 'FRONTEND', items: 'React, Redux, Storyboard, Styleguidist, Webpack Module Federation' },
+    { label: 'MOBILE', items: 'React Native, Appium' },
+    { label: 'DevOps', items: 'AWS, Docker, Gitlab Pipelines, Github Actions, Jenkins, Teamcity' },
+    { label: 'DATABASE', items: 'Postgres, MongoDb' },
+  ];
+
   return (
     <div className='p-8 page'>
       <div className='flex p-4 justify-between border-t-8 border-b-2 border-indigo-400'>
@@ -56,48 +66,14 @@ const App = () => {
             SKILLS
           </h2>
           <div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                DESIGN
-              </span>
-              <div className='p-1'>Microservices, Micro-Frontends, GraphQL</div>
-            </div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                LANGUAGES
-              </span>
-              <div className='p-1'>Java, ES6, Typescript, .net</div>
-            </div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                FRAMEWORKS
-              </span>
-              <div className='p-1'>Spring boot, ExpressJS, Apollo GraphQL, .net core</div>
-            </div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                FRONTEND
-              </span>
-              <div className='p-1'>React, Redux, Storyboard, Styleguidist, Webpack Module Federation</div>
-            </div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                MOBILE
-              </span>
-              <div className='p-1'>React Native, Appium</div>
-            </div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                DevOps
-              </span>
-              <div className='p-1'>AWS, Docker, Gitlab Pipelines, Github Actions, Jenkins, Teamcity</div>
-            </div>
-            <div>
-              <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
-                DATABASE
-              </span>
-              <div className='p-1'>Postgres, MongoDb</div>
-            </div>
+            {skills.map((skill) => (
+              <div key={skill.label}>
+                <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
+                  {skill.label}
+                </span>
+                <div className='p-1'>{skill.items}</div>
+              </div>
+            ))}
           </div>
         </div>
         <div className='border-l-2 px-4 border-indigo-200'>
