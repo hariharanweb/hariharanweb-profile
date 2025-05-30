@@ -3,4 +3,6 @@
   min-height: 29.7cm;
   padding: 0.25em;
   margin: 1cm auto;
+  -webkit-print-color-adjust: exact; 
+  print-color-adjust: exact; 
 }

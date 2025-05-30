@@ -135,7 +135,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className='px-4 pt-4 pb-8 border-b-2 border-indigo-200'>
+      <div className='px-4 pt-4 pb-6 border-b-2 border-indigo-200'>
         <h2 className="text-xl pb-2 underline">
           PROFESSIONAL SUMMARY
         </h2>
@@ -157,7 +157,7 @@ const App = () => {
                 <span className='bg-blue-500 rounded-md p-1 text-sky-50'>
                   {skill.label}
                 </span>
-                <div className='p-1'>{skill.items}</div>
+                <div className='p-1 pb-2'>{skill.items}</div>
               </div>
             ))}
           </div>
@@ -168,11 +168,13 @@ const App = () => {
           </h2>
           <div>
             <div className='font-bold'>Thoughtworks Technologies</div>
-            <div>Lead Consultant | Bangalore, India | November 2009 - Current</div>
+            <div>Lead Consultant | Bangalore, India</div>
+            <div className='text-sm'>November 2009 - Current</div>
           </div>
           <div className='pt-4'>
             <div className='font-bold'>Nokia Siemens Networks</div>
-            <div>Application Developer | Bangalore, India | July 2007 - November 2009</div>
+            <div>Application Developer | Bangalore, India</div>
+            <div className='text-sm'>July 2007 - November 2009</div>
           </div>
           <h2 className="text-xl py-2 underline">
             CERTIFICATIONS
