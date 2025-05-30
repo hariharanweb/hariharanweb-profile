@@ -174,6 +174,17 @@ const App = () => {
             <div className='font-bold'>Nokia Siemens Networks</div>
             <div>Application Developer | Bangalore, India | July 2007 - November 2009</div>
           </div>
+          <h2 className="text-xl py-2 underline">
+            CERTIFICATIONS
+          </h2>
+          <div><a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url'>AWS Certified Software Architect</a></div>
+          <h2 className="text-xl py-2 underline">
+            EDUCATION
+          </h2>
+          <div className='pt-1'>MS Software Systems | BITS PILANI</div>
+          <div className='text-sm pt-1'>2009-2011</div>
+          <div className='pt-1'>BE Telecommunication | RVCE</div>
+          <div className='text-sm pt-1'>2003-2007</div>
         </div>
       </div>
       <div className='px-4 pt-4'>
