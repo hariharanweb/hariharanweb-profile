@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hariharanweb-profile/static/css/main.61ab7d85.css",
-    "main.js": "/hariharanweb-profile/static/js/main.389376c1.js",
+    "main.js": "/hariharanweb-profile/static/js/main.81e197a8.js",
     "static/js/453.97d25332.chunk.js": "/hariharanweb-profile/static/js/453.97d25332.chunk.js",
     "static/media/aws.png": "/hariharanweb-profile/static/media/aws.dbac4be7505b78f7a4e4.png",
     "index.html": "/hariharanweb-profile/index.html",
     "main.61ab7d85.css.map": "/hariharanweb-profile/static/css/main.61ab7d85.css.map",
-    "main.389376c1.js.map": "/hariharanweb-profile/static/js/main.389376c1.js.map",
+    "main.81e197a8.js.map": "/hariharanweb-profile/static/js/main.81e197a8.js.map",
     "453.97d25332.chunk.js.map": "/hariharanweb-profile/static/js/453.97d25332.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61ab7d85.css",
-    "static/js/main.389376c1.js"
+    "static/js/main.81e197a8.js"
   ]
 }
