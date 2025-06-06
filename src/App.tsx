@@ -114,7 +114,7 @@ const App = () => {
           </h3>
         </div>
         <div className='flex flex-row items-center'>
-          <a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url' target='_blank' className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect' /></a>
+          <a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url' target='_blank' rel="noreferrer" className='pr-8'><img src={aws} width={'100px'} height={'100x'} alt='AWS Certified Software Architect' /></a>
           <div>
             <div>
               <EmailIcon />
@@ -179,7 +179,7 @@ const App = () => {
           <h2 className="text-xl py-2 underline">
             CERTIFICATIONS
           </h2>
-          <div><a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url' target='_blank'>AWS Certified Software Architect</a></div>
+          <div><a href='https://www.credly.com/badges/a9646a10-96aa-4ecc-9813-ef223405f32d/public_url' target='_blank' rel="noreferrer">AWS Certified Software Architect</a></div>
           <h2 className="text-xl py-2 underline">
             EDUCATION
           </h2>
