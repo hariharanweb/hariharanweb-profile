@@ -6,6 +6,8 @@ import aws from './aws.png'
 import './App.css';
 
 const App = () => {
+  const queryParam = window.location.search.replace('?showProjects=', '')
+  const showProjects = 'true' === queryParam
   const skills = [
     { label: 'DESIGN', items: 'Microservices, Micro-Frontends, GraphQL' },
     { label: 'LANGUAGES', items: 'Java, ES6, Typescript, .net' },
@@ -189,7 +191,7 @@ const App = () => {
           <div className='text-sm pt-1'>2003-2007</div>
         </div>
       </div>
-      <div className='px-4 pt-4'>
+      {showProjects && <div className='px-4 pt-4'>
         <h2 className="text-xl pb-2 underline">
           KEY PROJECTS
         </h2>
@@ -200,7 +202,7 @@ const App = () => {
             })
           }
         </div>
-      </div>
+      </div>}
     </div >
   );
 }
