@@ -10,12 +10,12 @@ const App = () => {
   const showProjects = 'true' === queryParam
   const skills = [
     { label: 'DESIGN', items: 'Microservices, Micro-Frontends, GraphQL' },
-    { label: 'LANGUAGES', items: 'Java, ES6, Typescript, .net' },
-    { label: 'FRAMEWORKS', items: 'Spring boot, ExpressJS, Apollo GraphQL, .net core' },
+    { label: 'LANGUAGES', items: 'Java, ES6, Typescript, .NET' },
+    { label: 'FRAMEWORKS', items: 'Spring boot, ExpressJS, Apollo GraphQL, .NET core' },
     { label: 'FRONTEND', items: 'React, Redux, Storyboard, Styleguidist, Webpack Module Federation' },
     { label: 'MOBILE', items: 'React Native, Appium' },
     { label: 'DevOps', items: 'AWS, Docker, Gitlab Pipelines, Github Actions, Jenkins, Teamcity' },
-    { label: 'DATABASE', items: 'Postgres, MongoDb' },
+    { label: 'DATABASE', items: 'PostgresSQL, MongoDB' },
   ];
 
   const projects = [
@@ -45,7 +45,7 @@ const App = () => {
     {
       client: 'Kroger - US/India',
       duration: '2019 - 2021',
-      technologies: 'React, Spring Boot, Kafka, Micro-frontends, Lerna, Postgres',
+      technologies: 'React, Spring Boot, Kafka, Micro-frontends, Lerna, PostgresSQL',
       description: 'Kroger is one of the largest American retail company. They were building a promotion planning platform and coupons management. I played the role of tech lead for teams spread across India and the US.',
       responsibilities: [
         'Designing event driven microservices for promotion planning using Spring boot and Kafka. Design of layered microservices architecture for the promotions management.',
@@ -92,8 +92,8 @@ const App = () => {
   const renderProject = (project: any) => {
     return (
       <div key={project.client} className='border-b-2 border-indigo-200 pb-4 mb-4'>
-        <h3 className="text-xl pb-1">{project.client}</h3>
-        <div className="text-sm pb-1 ">{project.duration}</div>
+        <h3 className="text-l pb-1 font-bold">{project.client}</h3>
+        <div className="text-sm pb-1">{project.duration}</div>
 
         <div>{project.description}</div>
         <ul className="list-disc pl-4">
@@ -143,7 +143,7 @@ const App = () => {
         </h2>
         <ul className="list-disc pl-8">
           <li>Tech leader with 17+ years of experience in designing and developing large scale enterprise applications.</li>
-          <li>Full stack developer with experience in web, backend, mobile development and devops.</li>
+          <li>Full stack developer with experience in web, backend, mobile development and DevOps.</li>
           <li>Experience in multiple domains like travel, e-commerce and BFSI.</li>
           <li>Leading teams in distributed delivery setups.</li>
         </ul>
@@ -192,7 +192,7 @@ const App = () => {
         </div>
       </div>
       {showProjects && <div className='px-4 pt-4'>
-        <h2 className="text-xl pb-2 underline">
+        <h2 className="text-xl pb-4 underline">
           KEY PROJECTS
         </h2>
         <div>
