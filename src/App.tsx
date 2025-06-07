@@ -92,7 +92,7 @@ const App = () => {
   const renderProject = (project: any) => {
     return (
       <div key={project.client} className='border-b-2 border-indigo-200 pb-4 mb-4'>
-        <h3 className="text-l pb-1 font-bold">{project.client}</h3>
+        <h3 className="text-xl pb-1 font-bold">{project.client}</h3>
         <div className="text-sm pb-1">{project.duration}</div>
 
         <div>{project.description}</div>
@@ -192,7 +192,7 @@ const App = () => {
         </div>
       </div>
       {showProjects && <div className='px-4 pt-4'>
-        <h2 className="text-xl pb-4 underline">
+        <h2 className="text-xl pb-2 underline">
           KEY PROJECTS
         </h2>
         <div>
