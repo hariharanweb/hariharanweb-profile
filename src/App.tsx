@@ -193,7 +193,7 @@ const App = () => {
       </div>
       {showProjects && <div className='px-4 pt-4'>
         <h2 className="text-xl pb-2 underline">
-          KEY PROJECTS
+          KEY CLIENTS AND PROJECTS
         </h2>
         <div>
           {
